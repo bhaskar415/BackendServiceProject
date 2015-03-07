@@ -1,0 +1,5 @@
+com\app\config\MongoDBConfig.class
+com\app\config\SimpleCORSFilter.class
+com\app\config\Application.class
+com\app\functional\demo\persistence\eo\PersonEO.class
+com\app\functional\demo\persistence\dao\mongo\datarest\PersonDAO.class
