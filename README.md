@@ -22,12 +22,12 @@ and run from STS Spring boot server or Maven
       <artifactId>your war or jar name</artifactId>
       <Version>increase the version by one so that is can be easily tracked</version>
     
- * Step 3: Import to Eclipse:
+  * Step 3: Import to Eclipse:
     From Eclipse > New > Import > Existing Maven project > browse to the root of project dir > select the pom.xml
     Now you must see new project created in the Project Explorer with your new project name given in the pom.xml.
 
   * Step 4: Verify and Test basic Setup using STS
-    Start: Right click on the new imported project > Run as > Spring Boot Application
+    Start project: Right click on the new imported project > Run as > Spring Boot Application
       If every thing goes well it will start local tomcat server(comes with STS) and should see console logs as
         Tomcat started on port(s): 8080/http 
         Started Application in 20.199 seconds (JVM running for 21.804)
